@@ -71,7 +71,7 @@ export const constantRoutes = [
         component: Layout,
         children: [
             {
-                path: 'https://github.com/songangweb/durl',
+                path: 'https://github.com/toolsetlink/durl',
                 meta: { title: 'github', icon: 'link' }
             }
         ]

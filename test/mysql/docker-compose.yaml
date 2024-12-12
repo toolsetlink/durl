@@ -1,0 +1,16 @@
+version: '1' # 使用较新的版本来兼容更多的功能
+services:
+  mysql:
+    image: mysql:8.4.3 # MySQL 8.4.3 镜像
+    container_name: mysql843 # 容器名称
+    environment:
+      MYSQL_ROOT_PASSWORD: Rootroot123! # 设置根用户密码
+      MYSQL_DATABASE: durl # 创建默认数据库
+      MYSQL_USER: user # 创建普通用户
+      MYSQL_PASSWORD: user_password # 设置普通用户的密码
+    ports:
+      - "3306:3306" # 指定宿主机端口与容器端口映射关系
+    volumes:
+      - ./data:/var/lib/mysql # 映射数据目录，宿主机:容器
+      - ./my.cnf:/etc/mysql/my.cnf # 映射配置文件目录
+    restart: always # 容器开机自启

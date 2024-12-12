@@ -33,4 +33,4 @@ services:
 ## 可选择自己所需启动的容器、修改端口映射关系
 ## 更多compose操作请参考：https://docs.docker.com/compose/
 ## 在当前目录执行
-## docker-compose up -d
+## test-compose up -d
