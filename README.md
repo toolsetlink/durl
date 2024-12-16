@@ -48,6 +48,14 @@ backend: 为后台管理页面,可管理短链接与黑名单. 可作为公司�
 ![avatar](https://github.com/songangweb/durl/wiki/durl.jpg)
 
 
+## 后台截图
+
+<img width="1427" alt="14241734315638_ pic" src="https://github.com/user-attachments/assets/0ffb1ee0-aafe-4a6d-af68-f0199f06b1e7" />
+
+
+<img width="1426" alt="14251734315660_ pic" src="https://github.com/user-attachments/assets/e6161894-8ad9-4ff1-b8e1-742a7a39b96e" />
+
+
 ## 如何使用
 
 ### 体验: docker-compose
